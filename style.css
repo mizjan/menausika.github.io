@@ -913,6 +913,29 @@ hr {
                                                                 align-items: center;
                                                             }
 
+                                                            .recuadro {
+  text-align: center; /* Esto centra tanto la imagen como el botón */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+}
+
+.boton-red {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #E1306C;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.boton-red:hover {
+  background-color: #c72c60;
+}
+
 
                                                             .content {
 
